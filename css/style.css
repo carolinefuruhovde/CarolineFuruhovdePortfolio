@@ -1,7 +1,34 @@
+body{
+    background-color: blanchedalmond;
+}
+
 h1{
     background-color: cadetblue;
     color: blueviolet;
 }
 header{
     background-color: chocolate;
+    float: right;
+}
+
+nav{
+    overflow:hidden;
+    
+}
+li{
+display:inline-block;
+padding-left: 50em;
+
+}
+.mobilenav{
+    display: none;
+}
+
+.herosection{
+    background-color: rgb(233, 96, 215);
+    padding: 200px;
+}
+
+.structure {
+    grid-template-rows: inherit;
 }
