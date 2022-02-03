@@ -1,38 +1,96 @@
 body{
-    background-color: #FFFBF6
+    background-color: #FFFBF6;
+  
 }
 
 h1{
-    background-color: cadetblue;
-    color: blueviolet;
+    position: absolute;
+    font-family: 'Gudea', sans-serif;
 }
-header{
-    background-color: chocolate;
-    float: right;
+h2 {
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 60px;
+    font-size: 32px;
 }
-
+h3{
+    font-family:'Gudea', sans-serif ;
+    font-size: 28px;
+}
 nav{
     overflow:hidden;
+  font-family: 'Gudea', sans-serif;
+  font-size: 18px;
     
 }
-li{
-display:inline-block;
-padding-left: 50em;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  li{
+      display: inline;
+      float: right;
+     
+  }
 
-}
-.mobilenav{
-    display: none;
-}
+  a{
+      display: block;
+      padding: 8px;
 
-.herosection{
-    padding: 100px;
-}
+  }
 
-img{
-    width: 500px;
+  p{
+    font-family: 'Gudea', sans-serif;
+    font-size: 18px;
+  }
+
+.herosection img{
+    width: 1200px;
     opacity: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.cv img{
+    width: 1000px;
+    opacity: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
 }
 
 .structure {
     grid-template-rows: inherit;
+    margin-left:15%;
+}
+
+/* abpout */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  
+   
+}
+
+.cvgrid{
+    margin-top: 50px;
+    /* margin-left: 15%; */
+    padding-top: 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+
+/* 
+mobil */
+
+.mobilenav{
+    display: none;
 }
