@@ -38,6 +38,7 @@ ul {
   a{
       display: block;
       padding: 8px;
+     text-decoration: none; color: black;
 
   }
 
@@ -86,8 +87,16 @@ ul {
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+.wrapper{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    row-gap: 30px;
 
-
+}
+ .sec1{
+     display: grid;
+     grid-template-columns: 1fr;
+ }
 /* 
 mobil */
 
