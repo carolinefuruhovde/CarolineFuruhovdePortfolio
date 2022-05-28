@@ -94,6 +94,9 @@ ul {
 
 }
  .sec1{
+     width: 100px;
+     height: 100px;
+     background-color: red;
      display: grid;
      grid-template-columns: 1fr;
  }
