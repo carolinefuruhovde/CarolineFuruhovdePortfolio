@@ -131,7 +131,8 @@ ul {
   //   grid-template-columns: repeat(6, 1fr);
   // } */
   .grid-1 {
-    background-color: pink;
+   
+    background-image: url('Mingle1.png');
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 1;
