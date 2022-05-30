@@ -1,5 +1,8 @@
 body{
     background-color: #FFFBF6;
+    margin-left: 100px;
+    margin-right: 100px;
+   
   
 }
 
@@ -11,6 +14,7 @@ h2 {
     font-family: 'Anton', sans-serif;
     margin-bottom: 60px;
     font-size: 32px;
+  
 }
 h3{
     font-family:'Gudea', sans-serif ;
@@ -70,6 +74,11 @@ ul {
  
 }
 
+.contactinfo{
+  height: 300px;
+  background-color: aqua;
+}
+
 /* about */
 
 .container2 {
@@ -105,9 +114,9 @@ ul {
 
  .container {
     display: grid;
+    margin-bottom: 50px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    width: 100vw;
     height: 100vh;
     @media screen and (max-width: 60em) {
       grid-template-rows: repeat(4, 1fr);
