@@ -13,12 +13,19 @@ h1{
 h2 {
     font-family: 'Anton', sans-serif;
     margin-bottom: 60px;
-    font-size: 32px;
+    font-size: 80px;
   
 }
 h3{
     font-family:'Anton', sans-serif ;
     font-size: 50px;
+}
+
+h4 {
+  
+    font-family: 'Gudea', sans-serif;
+    color: white;
+   
 }
 
 p{
@@ -81,7 +88,16 @@ ul {
 
 .contactinfo{
   height: 300px;
-  background-color: aqua;
+  background-color:rgb(72, 103, 106)
+}
+
+.contact {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.icons {
+  padding-top: 50px;
 }
 
 /* about */
@@ -228,7 +244,7 @@ ul {
     transition: 0.3s ease;
     opacity: 0;
     display: block;
-    background-color: rgb(84, 6, 84);
+    background-color: rgb(6, 115, 132);
     height: 100%;
    
   }
@@ -248,10 +264,11 @@ ul {
   }
 
   
+/* BOKS 3 */
 
-
-  .grid-3 {
-      background-color: green;
+   .grid-3 {
+    display: flex;
+    position: relative;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 2;
@@ -262,8 +279,44 @@ ul {
     }
   }
   
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle3 {
+    position: absolute;
+    transition: 0.3s ease;
+    opacity: 0;
+    display: block;
+    background-color: rgb(10, 53, 6);
+    height: 100%;
+   
+  }
+
+  .grid-3:hover .middle3 {
+    opacity: 70%;
+  }
+
+  .text {
+    width: 40%;
+    height: 80%;
+    color: white;
+    font-size: 18px;
+    padding-top: 60px;
+    margin-left: 300px;
+    text-align: left;
+  }
+  
+  /* BOKS 4 */
+
   .grid-4 {
-      background-color: yellow;
+    display: flex;
+    position: relative;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row: 2;
@@ -273,6 +326,40 @@ ul {
       grid-row: 4;
     }
   }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle4 {
+    position: absolute;
+    transition: 0.3s ease;
+    opacity: 0;
+    display: block;
+    background-color: rgb(65, 5, 89);
+    height: 100%;
+   
+  }
+
+  .grid-4:hover .middle4 {
+    opacity: 70%;
+  }
+
+  .text {
+    width: 40%;
+    height: 80%;
+    color: white;
+    font-size: 18px;
+    padding-top: 60px;
+    margin-left: 300px;
+    text-align: left;
+  }
+  
   
   .callout {
     margin: 0;
