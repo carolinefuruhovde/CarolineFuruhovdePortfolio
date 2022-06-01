@@ -168,7 +168,7 @@ ul {
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 500px;
+    height: 700px;
 }
 
 .grid1{
@@ -181,10 +181,30 @@ ul {
     grid-column: 2;
 }
 
+.sketches1{
+    display: flex;
+    height: 700px;
+    padding-bottom: 50px;
+    justify-content: center;
+  
+}
 
 
+.container4{
+   height: 1300px;
+   background-color: rgb(159, 222, 183);
+}
 
+.wireframes{
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
+.grid3{
+    margin-left: 100px;
+    margin-top: -20px
+}
 
     /* 
 mobil */
