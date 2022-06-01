@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FFFBF6;
+  
+  
+}
+
+h1{
+    position: absolute;
+    font-family: 'Gudea', sans-serif;
+    
+    
+}
+h2 {
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 60px;
+    font-size: 80px;
+    padding-top: 50px;
+  
+}
+h3{
+    font-family:'Anton', sans-serif ;
+    font-size: 50px;
+}
+
+h4 {
+  
+    font-family: 'Gudea', sans-serif;
+    color: white;
+   
+}
+
+p{
+  font-family: 'Gudea', sans-serif;
+  font-size: 20px;
+}
+nav{
+    padding-bottom: 10px;
+    overflow:hidden;
+    font-family: 'Gudea', sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  li{
+      display: inline;
+      float: right;
+     
+  }
+
+  a{
+      display: block;
+      padding: 8px;
+     text-decoration: none; color: black;
+
+  }
+
+  p{
+    font-family: 'Gudea', sans-serif;
+    
+  }
+
+
+.noprojects{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/* BUTTON */
+.button {
+    background-color : #ffffff;
+  border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+   outline: none;
+    opacity: 80%;
+    font-family: 'Gudea', sans-serif;
+  }
+  
+  #mybutton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+    /* 
+mobil */
+
+.mobilenav{
+   
+    display: none;
+}
