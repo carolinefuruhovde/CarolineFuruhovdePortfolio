@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+      background-color: #FFFBF6;
+      
+     
+    
+  }
+  
+  h1{
+      position: absolute;
+      font-family: 'Gudea', sans-serif;
+  }
+  h2 {
+      font-family: 'Anton', sans-serif;
+      margin-bottom: 60px;
+      font-size: 80px;
+    
+  }
+  h3{
+      font-family:'Anton', sans-serif ;
+      font-size: 50px;
+  }
+  
+  h4 {
+    
+      font-family: 'Gudea', sans-serif;
+      color: white;
+     
+  }
+  
+  p{
+    font-family: 'Gudea', sans-serif;
+    font-size: 20px;
+  }
+  nav{
+      overflow:hidden;
+    font-family: 'Gudea', sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+      
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+    }
+    li{
+        display: inline;
+        float: right;
+       
+    }
+  
+    a{
+        display: block;
+        padding: 8px;
+       text-decoration: none; color: black;
+  
+    }
+  
+    p{
+      font-family: 'Gudea', sans-serif;
+      
+    }
+
+    .contact{
+       position: relative;
+        height: 900px;
+        background-color:rgb(72, 103, 106);
+        display: flex;
+        align-items: center;
+        justify-content: center
+               
+    }
+ .grid{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+
+ }
+
+.text{
+    text-align: center;
+    position: inline;
+    font-size: 50px;
+    width: 400px;
+}
+
+.profile{
+    height: 400px;
+}
+
+  .icons{
+size: 20px;
+  }

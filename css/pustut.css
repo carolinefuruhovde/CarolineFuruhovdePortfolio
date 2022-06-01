@@ -226,6 +226,26 @@ ul {
     padding-top: 50px;
   }
 
+  /* BUTTON */
+.button {
+    background-color : #ffffff;
+  border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+   outline: none;
+    opacity: 80%;
+    font-family: 'Gudea', sans-serif;
+  }
+  
+  #mybutton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+
+
+
     /* 
 mobil */
 
