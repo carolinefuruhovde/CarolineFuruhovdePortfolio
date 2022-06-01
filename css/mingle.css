@@ -80,34 +80,40 @@ background-color: black;
       display: grid;
       grid-template-rows: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-      background-color: red;
+      /* background-color: red; */
       padding: 5%;
+           /* padding-left: 5%;
+      padding-right: 5%; */
       width: 100%;
      
   }
 
 .title{
-    background-color: rgb(211, 131, 131);
+    /* background-color: rgb(211, 131, 131); */
     font-family: 'Gudea', sans-serif;
     font-size: 150px;
     color: white;
+    padding: 10%;
 }
   .gridtext{
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-row: 2;
       display: inline block;
-      background-color: yellow;
+      /* background-color: yellow; */
       width: 700px;
+      color: white;
 
   }
 
   #type{
-      
+     border-right: 2px solid rgb(255, 255, 255);
+     margin-left: 80px;
 
   }
   #info{
-
+       margin-left: 40px;
+      
   }
 
   .gridimage{
