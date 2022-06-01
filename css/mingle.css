@@ -93,16 +93,28 @@ background-color: black;
     color: white;
 }
   .gridtext{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       grid-row: 2;
       display: inline block;
       background-color: yellow;
-      width: 200px;
+      width: 700px;
 
   }
+
+  #type{
+      
+
+  }
+  #info{
+
+  }
+
   .gridimage{
       grid-column: 2/4;
       grid-row: 1/5;
       background-color: purple;
+      height: 700px;
   }
 
   /* 
