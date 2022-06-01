@@ -1,7 +1,7 @@
 body{
     background-color: #FFFBF6;
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
    
   
 }
@@ -33,6 +33,8 @@ p{
   font-size: 20px;
 }
 nav{
+    padding-bottom: 10px;
+    background-color: aquamarine;
     overflow:hidden;
   font-family: 'Gudea', sans-serif;
   font-size: 18px;
@@ -61,6 +63,18 @@ ul {
   p{
     font-family: 'Gudea', sans-serif;
     
+  }
+
+  .herosection {
+    background-color: rgb(80, 80, 196);
+    height: 800px;
+  }
+
+  .container {
+      position: absolute;
+      display: inline-block;
+      background-color: red;
+      padding: 400px;
   }
 
   /* 
