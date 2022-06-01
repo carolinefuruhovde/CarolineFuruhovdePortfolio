@@ -21,6 +21,7 @@ h2 {
     font-family: 'Anton', sans-serif;
     margin-bottom: 60px;
     font-size: 80px;
+    padding-top: 50px;
   
 }
 h3{
@@ -170,6 +171,83 @@ ul {
     height: 550px;
 
 }
+
+.container4{
+    margin-top: 50px;
+    height: 1000px;
+    width: 100%;
+}
+
+.wireframes{
+    /* position: relative; */
+    display: block;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    color: white;
+   
+}
+
+.wireframeimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.wireframeimg{
+flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.wireframes h2{
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+    
+}
+
+.container5{
+    margin-top: 50px;
+    height: 600px;
+    width: 100%;
+   
+}
+
+.designelements{
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+    
+}
+
+.textbox{
+    
+    padding-top: 20%;
+    margin: 100px;
+}
+
+.colour{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+}
+
+.colour img{
+    height: 200px;
+    
+}
+
+
+
+
+
+
 
   /* 
 mobil */
