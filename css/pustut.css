@@ -206,6 +206,26 @@ ul {
     margin-top: -20px
 }
 
+
+.container5{
+    display: flex;
+   justify-content: flex-end;
+}
+
+.contactinfo{
+    height: 300px;
+    background-color:rgb(72, 103, 106)
+  }
+  
+  .contact {
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .icons {
+    padding-top: 50px;
+  }
+
     /* 
 mobil */
 
