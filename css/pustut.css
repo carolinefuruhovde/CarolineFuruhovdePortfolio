@@ -75,12 +75,39 @@ ul {
   }
 
   .herosection {
-    background: rgb(117,114,114);
-    background: linear-gradient(31deg, rgba(117,114,114,1) 0%, rgba(15,15,15,1) 48%, rgba(2,0,36,1) 100%);
-    height: 900px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(150deg, rgb(109, 203, 230) 0%, rgb(190, 242, 171) 48%, rgb(237, 237, 152) 100%);
+    height: 800px;
   }
 
+  .container{
+    position: relative;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: red; */
+    /* padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%; */
+         /* padding-left: 5%;
+    padding-right: 5%; */
+    width: 100%;
+   
+  }
 
+  .phonecases img{
+      margin-top: -85px;
+      position: absolute;
+      height: 900px;
+       width: 100%;
+        object-fit: contain;
+       
+      }
+
+.gridtext{
+    position: absolute;
+    
+}
 
 
 
